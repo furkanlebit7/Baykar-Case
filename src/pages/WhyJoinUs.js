@@ -1,10 +1,11 @@
 import React from "react";
+import { AiFillPlayCircle } from "react-icons/ai";
 import { BsCheckLg } from "react-icons/bs";
 
 const WhyJoinUs = () => {
   return (
-    <div className="pt-4 pb-14 px-4 flex ">
-      <div className="py-8 px-4 shadow-boxShadow rounded-4xl flex-col gap-8">
+    <div className="pt-4 pb-14 px-4">
+      <div className="py-8 px-4 shadow-boxShadow rounded-4xl flex flex-col gap-8">
         <div className="flex flex-col items-center gap-6 ">
           <h1 className="text-blue-gray text-3xl font-bold">Why Join Us</h1>
           <ul className="flex flex-col gap-2">
@@ -25,16 +26,17 @@ const WhyJoinUs = () => {
             Sign up now
           </button>
         </div>
-        <div className="shadow-boxShadow2 p-1 rounded-3xl">
+        <div className="shadow-boxShadow2 p-1 rounded-3xl relative">
           <div className="flex items-center gap-1 text-xs my-3 mx-2">
             <span>🔴</span>
             <span>🟡</span>
             <span>🟢</span>
           </div>
+          <AiFillPlayCircle className="absolute text-[150px] opacity-70 left-1/2 -translate-x-1/2 top-1/3" />
           <img
-            src={require("../images/bou1.png")}
+            src={require("../images/grow1.png")}
             alt="join us"
-            className="rounded-b-3xl"
+            className="rounded-b-3xl w-full"
           />
         </div>
       </div>

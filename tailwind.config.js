@@ -9,6 +9,7 @@ module.exports = {
         "amber-100": "#FEF3C7",
         "amber-200": "#FDE68A",
         "amber-400": "#FBBF24",
+        "amber-900": "#78350F",
         "blue-gray": "#0F172A",
       },
       backgroundImage: {
@@ -29,6 +30,14 @@ module.exports = {
           "0px 0px 10px 0px rgba(0, 0, 0, 0.07), 0px 20px 25px -5px rgba(0, 0, 0, 0.10);",
         boxShadow2:
           "0px 0px 15px 0px rgba(0, 0, 0, 0.07), 0px 25px 50px -12px rgba(0, 0, 0, 0.25);",
+        boxShadow3:
+          "0px 0px 4px 0px rgba(0, 0, 0, 0.07), 0px 4px 6px -1px rgba(0, 0, 0, 0.10);",
+        boxShadow4:
+          "0px 0px 6px 0px rgba(0, 0, 0, 0.07), 0px 10px 15px -3px rgba(0, 0, 0, 0.10);",
+      },
+      borderWidth: {
+        3: "3px",
+        half: "0.5px",
       },
     },
   },
