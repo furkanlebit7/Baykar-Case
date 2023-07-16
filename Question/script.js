@@ -32,7 +32,8 @@ let countdownInterval;
 
 function showQuestion() {
   const question = questions[currentQuestionIndex];
-  document.getElementById("question").textContent = question.question;
+  document.getElementById("question").textContent =
+    "Question " + (currentQuestionIndex + 1) + ": " + question.question;
   document.getElementById("choiceA").textContent = question.choices.A;
   document.getElementById("choiceB").textContent = question.choices.B;
   document.getElementById("choiceC").textContent = question.choices.C;
