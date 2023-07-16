@@ -2,8 +2,8 @@ import React from "react";
 
 const MainContentBox = () => {
   return (
-    <div className="py-12 px-4 flex flex-col items-center gap-8 text-center">
-      <div className="flex flex-col items-center gap-4 self-stretch relative">
+    <div className="py-12 px-4 flex flex-col items-center gap-8 text-center lg:flex-row lg:p-20 lg:gap-20 lg:text-left">
+      <div className="flex flex-col items-center gap-4 self-stretch relative lg:items-start">
         <img
           src={require("../images/Rectangle25.png")}
           alt="cup"
@@ -16,7 +16,7 @@ const MainContentBox = () => {
           Consequat turpis natoque leo, massa.
         </p>
       </div>
-      <div className="flex flex-col items-center gap-4 self-stretch relative">
+      <div className="flex flex-col items-center gap-4 self-stretch relative lg:items-start">
         <img
           src={require("../images/Rectangle26.png")}
           alt="cup"
@@ -29,7 +29,7 @@ const MainContentBox = () => {
           Consequat turpis natoque leo, massa.
         </p>
       </div>
-      <div className="flex flex-col items-center gap-4 self-stretch relative">
+      <div className="flex flex-col items-center gap-4 self-stretch relative lg:items-start">
         <img
           src={require("../images/Rectangle27.png")}
           alt="cup"

@@ -9,7 +9,7 @@ import WhyJoinUs from "./pages/WhyJoinUs";
 
 function App() {
   return (
-    <div>
+    <div className="bg-amber-50">
       <MainPage />
       <BestOfBest />
       <WhyJoinUs />

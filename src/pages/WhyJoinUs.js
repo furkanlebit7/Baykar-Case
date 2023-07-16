@@ -4,10 +4,12 @@ import { BsCheckLg } from "react-icons/bs";
 
 const WhyJoinUs = () => {
   return (
-    <div className="pt-4 pb-14 px-4">
-      <div className="py-8 px-4 shadow-boxShadow rounded-4xl flex flex-col gap-8">
-        <div className="flex flex-col items-center gap-6 ">
-          <h1 className="text-blue-gray text-3xl font-bold">Why Join Us</h1>
+    <div className="pt-4 pb-14 px-4 lg:px-20 lg:py-40">
+      <div className="py-8 px-4 shadow-boxShadow rounded-4xl flex flex-col gap-8 items-center lg:flex-row lg:p-20 bg-white lg:gap-20">
+        <div className="flex flex-col items-center gap-6 lg:items-start">
+          <h1 className="text-blue-gray text-3xl font-bold lg:text-6xl">
+            Why Join Us
+          </h1>
           <ul className="flex flex-col gap-2">
             <li className="flex gap-2">
               <BsCheckLg className="text-2xl text-green-500" />
@@ -26,7 +28,7 @@ const WhyJoinUs = () => {
             Sign up now
           </button>
         </div>
-        <div className="shadow-boxShadow2 p-1 rounded-3xl relative">
+        <div className="shadow-boxShadow2 p-1 rounded-3xl relative sm:w-5/6 md:w-1/2">
           <div className="flex items-center gap-1 text-xs my-3 mx-2">
             <span>🔴</span>
             <span>🟡</span>
