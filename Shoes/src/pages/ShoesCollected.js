@@ -42,6 +42,10 @@ const ShoesCollected = () => {
           className="bg-amber-900 min-w-min w-full max-w[1049px] max-h-[633px] object-contain"
         />
       </div>
+      <div className="text-center absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 font-extrabold text-white">
+        <p className="lg:text-8xl text-5xl">11,658,467</p>
+        <p className="lg:text-6xl text-3xl">Shoes Collected</p>
+      </div>
     </div>
   );
 };
